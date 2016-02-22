@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <title>MyGmail | API Gmail with Javascript</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <span class="logo">Javascript Email</span>
+  </header>
+
+  <main class="main">
+    <aside class="sidebar">
+      <a class="item current">Inbox</a>
+      <a class="item">Sent</a>
+    </aside>
+
+    <div class="content">
+      <ul id="list-email" class="list"></ul>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.min.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+</body>
+</html>

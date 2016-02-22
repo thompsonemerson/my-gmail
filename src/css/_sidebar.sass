@@ -1,0 +1,24 @@
+.sidebar
+    display: flex
+    flex-direction: row
+    width: 100%
+    background-color: $color2
+    .item
+        width: 100%
+        padding: 15px
+        text-align: center
+        color: rgba(#FFF, .5)
+        &:hover
+            background-color: rgba(#000, .1)
+        &.current
+            background-color: rgba(#000, .2)
+            color: #FFF
+
+
+@media( min-width: 580px )
+    .main
+        .sidebar
+            flex-direction: column
+            width: 25%
+            .item
+                text-align: left

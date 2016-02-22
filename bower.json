@@ -1,0 +1,8 @@
+{
+  "name": "my-gmail",
+  "private": "true",
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "^2.2.0"
+  }
+}
